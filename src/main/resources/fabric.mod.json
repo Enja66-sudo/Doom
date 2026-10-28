@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "doomupdated",
+  "version": "${version}",
+  "name": "Doom Updated",
+  "description": "A clean PvP utility menu prototype with a glossy GUI and an Obv category.",
+  "authors": ["Doom Updated"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.doomupdated.DoomUpdated"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
